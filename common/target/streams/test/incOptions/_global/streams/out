@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/stan/Dev/_Spread/spread/tsec/tsec/common/target/scala-3.1.0/test-classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TestSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TSecOpsTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SymmetricSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TestSpec.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TSecOpsTest.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SymmetricSpec.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/stan/Dev/_Spread/spread/tsec/tsec/common/target/scala-3.1.0/test-classes.bak[0m

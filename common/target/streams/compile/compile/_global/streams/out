@@ -1,0 +1,12 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /Users/stan/Dev/_Spread/spread/server/dl/src/main/scala/tsec/tsec/common/src/main/scala/tsec/common/CanCatch.scala:1:13 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m1 |[0m[33mpackage[0m tsec.common[0m
+[0m[[0m[33mwarn[0m] [0m[0m  |[33m^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m  |No class, trait or object is defined in the compilation unit.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  |The incremental compiler cannot record the dependency information in such case.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  |Some errors like unused import referring to a non-existent class might not be reported.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Deprecation Warning: /Users/stan/Dev/_Spread/spread/server/dl/src/main/scala/tsec/tsec/common/src/main/scala/tsec/common/OSUtil.scala:24:19 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m24 |[0m    [33mtry[0m [33mif[0m (System.getSecurityManager == [31mnull[0m) System.getProperty(key)[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |            [33m^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33mmethod[0m [35mgetSecurityManager[0m in [33mobject[0m [35mSystem[0m is deprecated since : see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m

@@ -1,0 +1,1560 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 13 initial tasks for 13 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.CookieSignerTests, sbt.ForkMain$SubclassFingerscan@79b4d0f, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCookieSignerTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCookieSigner for algo HmacSHA1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify any cookie properly with coercion[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and retrieve properly for any properly signed message[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not return true for verifying an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should verify UUIDs properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCookieSigner for algo HmacSHA256[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify any cookie properly with coercion[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and retrieve properly for any properly signed message[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not return true for verifying an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should verify UUIDs properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCookieSigner for algo HmacSHA384[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify any cookie properly with coercion[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and retrieve properly for any properly signed message[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not return true for verifying an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should verify UUIDs properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCookieSigner for algo HmacSHA512[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify any cookie properly with coercion[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and retrieve properly for any properly signed message[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not return true for verifying an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should verify UUIDs properly[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 16 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.authentication.AuthorizationTests, sbt.ForkMain$SubclassFingerscan@6b2fad11, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthorizationTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBasicRBAC[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should let a request pass through if in group[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not let a request pass through if not contained[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBasicDAC[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should let a request pass if owner but not in group[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should let a request pass if in group but not owner[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not let the request pass if in neither[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHierarchyAuth[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should let a user with lower than the required clearance pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should let a user with equal clearance pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not a user with equal clearance pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDynamicRBAC[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should let a request pass through if in group[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not let a request pass through if not contained[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBell La Padula[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should read same level[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should read lower level[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not read up[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should only write same level[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 14 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.authentication.CSRFSpec, sbt.ForkMain$SubclassFingerscan@79698539, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCSRFSpec:[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.authentication.EncryptedCookieAuthenticatorSpec, sbt.ForkMain$SubclassFingerscan@73f792cf, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEncryptedCookieAuthenticatorSpec:[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.authentication.JWTAuthenticatorSpec, sbt.ForkMain$SubclassFingerscan@2ed94a8b, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWTAuthenticatorSpec:[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.authentication.RequestAuthenticatorSpec, sbt.ForkMain$SubclassFingerscan@38082d64, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRequestAuthenticatorSpec:[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.authentication.JWTAuthenticatorTests, sbt.ForkMain$SubclassFingerscan@dfd3711, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWTAuthenticatorTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHmacSHA256 JWT Token64 check[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass token68 check[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHmacSHA384 JWT Token64 check[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass token68 check[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHmacSHA512 JWT Token64 check[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass token68 check[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateful spec: HmacSHA256 in bearer token no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateful spec: HmacSHA256 in bearer token no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateful spec: HmacSHA256 in cookie no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateful spec: HmacSHA256 in cookie no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateful spec: HmacSHA256 in header no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateful spec: HmacSHA256 in header no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateful spec: HmacSHA256 in bearer token rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateful spec: HmacSHA256 in bearer token rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateful spec: HmacSHA256 in cookie rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateful spec: HmacSHA256 in cookie rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateful spec: HmacSHA256 in header rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateful spec: HmacSHA256 in header rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateful spec: HmacSHA384 in bearer token no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateful spec: HmacSHA384 in bearer token no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateful spec: HmacSHA384 in cookie no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateful spec: HmacSHA384 in cookie no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateful spec: HmacSHA384 in header no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateful spec: HmacSHA384 in header no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateful spec: HmacSHA384 in bearer token rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateful spec: HmacSHA384 in bearer token rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateful spec: HmacSHA384 in cookie rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateful spec: HmacSHA384 in cookie rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateful spec: HmacSHA384 in header rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateful spec: HmacSHA384 in header rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateful spec: HmacSHA512 in bearer token no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateful spec: HmacSHA512 in bearer token no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateful spec: HmacSHA512 in cookie no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateful spec: HmacSHA512 in cookie no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateful spec: HmacSHA512 in header no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateful spec: HmacSHA512 in header no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateful spec: HmacSHA512 in bearer token rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateful spec: HmacSHA512 in bearer token rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateful spec: HmacSHA512 in cookie rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateful spec: HmacSHA512 in cookie rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateful spec: HmacSHA512 in header rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateful spec: HmacSHA512 in header rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Partial Stateless spec: HmacSHA256 in bearer token no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Partial Stateless spec: HmacSHA256 in bearer token no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Partial Stateless spec: HmacSHA256 in cookie no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Partial Stateless spec: HmacSHA256 in cookie no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Partial Stateless spec: HmacSHA256 in header no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Partial Stateless spec: HmacSHA256 in header no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Partial Stateless spec: HmacSHA256 in bearer token rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Partial Stateless spec: HmacSHA256 in bearer token rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Partial Stateless spec: HmacSHA256 in cookie rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Partial Stateless spec: HmacSHA256 in cookie rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Partial Stateless spec: HmacSHA256 in header rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Partial Stateless spec: HmacSHA256 in header rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Partial Stateless spec: HmacSHA384 in bearer token no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Partial Stateless spec: HmacSHA384 in bearer token no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Partial Stateless spec: HmacSHA384 in cookie no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Partial Stateless spec: HmacSHA384 in cookie no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Partial Stateless spec: HmacSHA384 in header no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Partial Stateless spec: HmacSHA384 in header no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Partial Stateless spec: HmacSHA384 in bearer token rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Partial Stateless spec: HmacSHA384 in bearer token rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Partial Stateless spec: HmacSHA384 in cookie rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Partial Stateless spec: HmacSHA384 in cookie rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Partial Stateless spec: HmacSHA384 in header rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Partial Stateless spec: HmacSHA384 in header rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Partial Stateless spec: HmacSHA512 in bearer token no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Partial Stateless spec: HmacSHA512 in bearer token no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Partial Stateless spec: HmacSHA512 in cookie no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Partial Stateless spec: HmacSHA512 in cookie no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Partial Stateless spec: HmacSHA512 in header no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Partial Stateless spec: HmacSHA512 in header no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Partial Stateless spec: HmacSHA512 in bearer token rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Partial Stateless spec: HmacSHA512 in bearer token rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Partial Stateless spec: HmacSHA512 in cookie rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Partial Stateless spec: HmacSHA512 in cookie rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Partial Stateless spec: HmacSHA512 in header rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Partial Stateless spec: HmacSHA512 in header rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateless spec: HmacSHA256 in bearer token no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateless spec: HmacSHA256 in bearer token no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateless spec: HmacSHA256 in cookie no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateless spec: HmacSHA256 in cookie no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateless spec: HmacSHA256 in header no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateless spec: HmacSHA256 in header no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateless spec: HmacSHA256 in bearer token rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateless spec: HmacSHA256 in bearer token rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateless spec: HmacSHA256 in cookie rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateless spec: HmacSHA256 in cookie rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateless spec: HmacSHA256 in header rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateless spec: HmacSHA256 in header rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateless spec: HmacSHA384 in bearer token no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateless spec: HmacSHA384 in bearer token no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateless spec: HmacSHA384 in cookie no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateless spec: HmacSHA384 in cookie no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateless spec: HmacSHA384 in header no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateless spec: HmacSHA384 in header no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateless spec: HmacSHA384 in bearer token rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateless spec: HmacSHA384 in bearer token rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateless spec: HmacSHA384 in cookie rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateless spec: HmacSHA384 in cookie rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateless spec: HmacSHA384 in header rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateless spec: HmacSHA384 in header rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateless spec: HmacSHA512 in bearer token no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateless spec: HmacSHA512 in bearer token no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateless spec: HmacSHA512 in cookie no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateless spec: HmacSHA512 in cookie no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateless spec: HmacSHA512 in header no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateless spec: HmacSHA512 in header no rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateless spec: HmacSHA512 in bearer token rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateless spec: HmacSHA512 in bearer token rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateless spec: HmacSHA512 in cookie rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateless spec: HmacSHA512 in cookie rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthenticator Stateless spec: HmacSHA512 in header rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op validate for a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Request Auth Stateless spec: HmacSHA512 in header rolling[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should no-op on a timed out token[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1029 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.authentication.SignedCookieAuthenticatorTests, sbt.ForkMain$SubclassFingerscan@42d3bd8b, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSignedCookieAuthenticatorTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHMACSHA1 Authenticator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHMACSHA256 Authenticator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHMACSHA384 Authenticator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHMACSHA512 Authenticator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: HMACSHA1 Authenticator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: HMACSHA256 Authenticator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: HMACSHA384 Authenticator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: HMACSHA512 Authenticator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSigned Cookie Authenticator HmacSHA1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should expire tokens on discard[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSigned Cookie Authenticator HmacSHA256[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should expire tokens on discard[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSigned Cookie Authenticator HmacSHA384[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should expire tokens on discard[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSigned Cookie Authenticator HmacSHA512[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should expire tokens on discard[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 84 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.AEADCookieSignerTest, sbt.ForkMain$SubclassFingerscan@26ba2a48, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAEADCookieSignerTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAEAD Cookie encrypting with AES128[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not encrypt and decrypt properly with an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAEAD Cookie encrypting with AES192[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not encrypt and decrypt properly with an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAEAD Cookie encrypting with AES256[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not encrypt and decrypt properly with an incorrect key[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 6 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.authentication.CSRFTests, sbt.ForkMain$SubclassFingerscan@5f2050f6, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCSRFTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCSRF signing using HmacSHA1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should check for an equal token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not validate different tokens[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCSRF middleware using HmacSHA1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass through and embed for a fresh request in a safe method[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail and not embed a new token for a safe method but invalid cookie[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass through and embed a slightly different token for a safe request[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should validate for the correct csrf token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not validate if token is missing in both[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not validate for token missing in header[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not validate for token missing in cookie[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not validate for different tokens[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not return the same token to mitigate BREACH[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not return a token for a failed CSRF check[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCSRF signing using HmacSHA256[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should check for an equal token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not validate different tokens[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCSRF middleware using HmacSHA256[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass through and embed for a fresh request in a safe method[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail and not embed a new token for a safe method but invalid cookie[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass through and embed a slightly different token for a safe request[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should validate for the correct csrf token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not validate if token is missing in both[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not validate for token missing in header[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not validate for token missing in cookie[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not validate for different tokens[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not return the same token to mitigate BREACH[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not return a token for a failed CSRF check[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCSRF signing using HmacSHA384[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should check for an equal token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not validate different tokens[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCSRF middleware using HmacSHA384[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass through and embed for a fresh request in a safe method[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail and not embed a new token for a safe method but invalid cookie[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass through and embed a slightly different token for a safe request[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should validate for the correct csrf token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not validate if token is missing in both[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not validate for token missing in header[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not validate for token missing in cookie[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not validate for different tokens[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not return the same token to mitigate BREACH[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not return a token for a failed CSRF check[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCSRF signing using HmacSHA512[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should check for an equal token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not validate different tokens[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCSRF middleware using HmacSHA512[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass through and embed for a fresh request in a safe method[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail and not embed a new token for a safe method but invalid cookie[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass through and embed a slightly different token for a safe request[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should validate for the correct csrf token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not validate if token is missing in both[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not validate for token missing in header[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not validate for token missing in cookie[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not validate for different tokens[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not return the same token to mitigate BREACH[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not return a token for a failed CSRF check[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 48 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.authentication.BearerTokenAuthenticatorTests, sbt.ForkMain$SubclassFingerscan@3b81a1bc, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBearerTokenAuthenticatorTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBearer token authenticator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: Bearer token Request handler[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 20 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.authentication.EncryptedCookieAuthenticatorTests, sbt.ForkMain$SubclassFingerscan@64616ca2, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEncryptedCookieAuthenticatorTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES128GCM Authenticator w\ backing store[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES192GCM Authenticator w\ backing store[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES256GCM Authenticator w\ backing store[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES128GCM Authenticator stateless[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES192GCM Authenticator stateless[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES256GCM Authenticator stateless[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Create, embed and extract properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should renew properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token with a different key/incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should discard a token properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not validate for a token past the timeout[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should refresh properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: AES128GCM Authenticator w\ backing store[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: AES192GCM Authenticator w\ backing store[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: AES256GCM Authenticator w\ backing store[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: AES128GCM Authenticator stateless[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: AES192GCM Authenticator stateless[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSecuredRequests: AES256GCM Authenticator stateless[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should TryExtractRaw properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return a proper deserialized user[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on an expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a renewed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Reject an invalid token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Fail on a discarded token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should authorize for an allowed endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not authorize for a gated endpoint[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use the specified response when onNotAuthorized is specified[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should catch unhandled errors into unauthorized[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should extract properly for a user aware service[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on a refreshed token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail on a timed out token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mStateless Encrypted cookie authenticator with AES256[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should expire the cookie on discard[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass along fixed settings[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mStateful Encrypted cookie authenticator with AES256[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should expire the cookie on discard[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass along fixed settings[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 124 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.authentication.TSecAuthServiceTests, sbt.ForkMain$SubclassFingerscan@13fee20c, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTSecAuthServiceTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTSecAuthService[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should compose and not fall through[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 39 seconds, 96 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1342[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 13, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1342, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.CookieSignerTests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.authentication.AuthorizationTests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.authentication.CSRFSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.authentication.EncryptedCookieAuthenticatorSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.authentication.JWTAuthenticatorSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.authentication.RequestAuthenticatorSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.authentication.JWTAuthenticatorTests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.authentication.SignedCookieAuthenticatorTests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.AEADCookieSignerTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.authentication.CSRFTests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.authentication.BearerTokenAuthenticatorTests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.authentication.EncryptedCookieAuthenticatorTests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.authentication.TSecAuthServiceTests[0m

@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.HasherTest, sbt.ForkMain$SubclassFingerscan@17c68925, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHasherTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA cryptographic hash function for MD5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for two equal byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for piped byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA cryptographic hash function for SHA-1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for two equal byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for piped byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA cryptographic hash function for SHA-256[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for two equal byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for piped byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA cryptographic hash function for SHA-512[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for two equal byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for piped byte arrays[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 8 events.[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 49 seconds, 300 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 8[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 8, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.HasherTest[0m

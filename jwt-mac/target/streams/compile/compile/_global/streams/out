@@ -1,0 +1,6 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Unchecked Warning: /Users/stan/Dev/_Spread/spread/server/dl/src/main/scala/tsec/tsec/jwt-mac/src/main/scala/tsec/jws/mac/JWTMac.scala:28:9 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m28 |[0m    [33mcase[0m j: JWTMac[A] => ==(j)[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |         [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |   the type test for tsec.jws.mac.JWTMac[A] cannot be checked at runtime[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

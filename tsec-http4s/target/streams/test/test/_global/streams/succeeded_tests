@@ -1,0 +1,15 @@
+#Successful Tests
+#Wed Dec 08 21:47:29 MSK 2021
+tsec.authentication.EncryptedCookieAuthenticatorSpec=1638989244070
+tsec.authentication.AuthorizationTests=1638989243947
+tsec.authentication.CSRFSpec=1638989244067
+tsec.authentication.CSRFTests=1638989249131
+tsec.authentication.RequestAuthenticatorSpec=1638989244073
+tsec.AEADCookieSignerTest=1638989248888
+tsec.authentication.JWTAuthenticatorSpec=1638989244072
+tsec.authentication.JWTAuthenticatorTests=1638989248522
+tsec.authentication.TSecAuthServiceTests=1638989249623
+tsec.authentication.SignedCookieAuthenticatorTests=1638989248732
+tsec.authentication.EncryptedCookieAuthenticatorTests=1638989249612
+tsec.authentication.BearerTokenAuthenticatorTests=1638989249198
+tsec.CookieSignerTests=1638989243258

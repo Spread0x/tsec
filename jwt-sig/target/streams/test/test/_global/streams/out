@@ -1,0 +1,98 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.JWTSigTests, sbt.ForkMain$SubclassFingerscan@67b64c45, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWTSigTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWT signature-style RS256 - pure[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params with Unverified JWT[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an expired claim[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a future iat[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a wrong nbf[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWT signature-style RS256 - SigErrorM[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params with Unverified JWT[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an expired claim[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a future iat[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a wrong nbf[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWT signature-style RS384 - pure[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params with Unverified JWT[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an expired claim[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a future iat[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a wrong nbf[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWT signature-style RS384 - SigErrorM[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params with Unverified JWT[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an expired claim[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a future iat[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a wrong nbf[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWT signature-style RS512 - pure[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params with Unverified JWT[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an expired claim[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a future iat[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a wrong nbf[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWT signature-style RS512 - SigErrorM[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params with Unverified JWT[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an expired claim[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a future iat[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a wrong nbf[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWT signature-style ES256 - pure[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params with Unverified JWT[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an expired claim[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a future iat[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a wrong nbf[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWT signature-style ES256 - SigErrorM[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params with Unverified JWT[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an expired claim[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a future iat[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a wrong nbf[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWT signature-style ES384 - pure[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params with Unverified JWT[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an expired claim[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a future iat[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a wrong nbf[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWT signature-style ES384 - SigErrorM[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params with Unverified JWT[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an expired claim[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a future iat[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a wrong nbf[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWT signature-style ES512 - pure[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params with Unverified JWT[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an expired claim[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a future iat[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a wrong nbf[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWT signature-style ES512 - SigErrorM[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign and verify properly for proper params with Unverified JWT[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for an expired claim[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a future iat[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for a wrong nbf[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 72 events.[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 49 seconds, 216 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 72[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 72, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.JWTSigTests[0m

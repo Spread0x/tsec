@@ -1,0 +1,92 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 2 initial tasks for 2 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.JCASymmetricCipherTests, sbt.ForkMain$SubclassFingerscan@17c68925, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJCASymmetricCipherTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES_128/GCM/NoPadding[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Be able to build a correct key from a repr[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key and AEAD[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for correct key but incorrect AAD[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Be able to build a correct key from a repr in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key and AEAD in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for an incorrect key in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for correct key but incorrect AAD in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES_128/GCM/NoPadding Key Generator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not allow a key with incorrect length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES_128/CBC/PKCS5Padding[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Be able to build a correct key from a repr[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES_128/CBC/PKCS5Padding Key Generator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not allow a key with incorrect length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES_128/CTR/NoPadding[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Be able to build a correct key from a repr[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES_128/CTR/NoPadding Key Generator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not allow a key with incorrect length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES_192/GCM/NoPadding[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Be able to build a correct key from a repr[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key and AEAD[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for correct key but incorrect AAD[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Be able to build a correct key from a repr in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key and AEAD in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for an incorrect key in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for correct key but incorrect AAD in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES_192/GCM/NoPadding Key Generator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not allow a key with incorrect length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES_192/CBC/PKCS5Padding[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Be able to build a correct key from a repr[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES_192/CBC/PKCS5Padding Key Generator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not allow a key with incorrect length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES_192/CTR/NoPadding[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Be able to build a correct key from a repr[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES_192/CTR/NoPadding Key Generator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not allow a key with incorrect length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES_256/GCM/NoPadding[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Be able to build a correct key from a repr[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key and AEAD[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for correct key but incorrect AAD[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Be able to build a correct key from a repr in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key and AEAD in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for an incorrect key in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for correct key but incorrect AAD in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES_256/GCM/NoPadding Key Generator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not allow a key with incorrect length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES_256/CBC/PKCS5Padding[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Be able to build a correct key from a repr[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES_256/CBC/PKCS5Padding Key Generator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not allow a key with incorrect length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES_256/CTR/NoPadding[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Be able to build a correct key from a repr[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAES_256/CTR/NoPadding Key Generator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not allow a key with incorrect length[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 57 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.JCASymmetricSpec, sbt.ForkMain$SubclassFingerscan@7e0ea639, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJCASymmetricSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 49 seconds, 4 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 57[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 57, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.JCASymmetricSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.JCASymmetricCipherTests[0m

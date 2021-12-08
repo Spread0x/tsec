@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.jwt.JWTClaimsTest, sbt.ForkMain$SubclassFingerscan@67b64c45, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWTClaimsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWTClaims[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not mutate the internal json tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should embed and retrieve a custom field correctly, without mutating[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should embed and retrieve a top level custom object[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Serialize and deserialize properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should correctly deserialize the 'aud' field when it is a string literal[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should correctly deserialize the 'aud' field when it is a list of strings[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 6 events.[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 49 seconds, 72 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.jwt.JWTClaimsTest[0m

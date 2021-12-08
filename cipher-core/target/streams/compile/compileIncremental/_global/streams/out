@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 19 products, 9 sources, 1 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/cipher-core/src/main/scala/tsec/cipher/common/padding/OAEPPadding.scala, ${BASE}/cipher-core/src/main/scala/tsec/cipher/common/padding/ISO10126Padding.scala, ${BASE}/cipher-core/src/main/scala/tsec/cipher/common/padding/NoPadding.scala, ${BASE}/cipher-core/src/main/scala/tsec/cipher/common/padding/PKCS5Padding.scala, ${BASE}/cipher-core/src/main/scala/tsec/cipher/common/package.scala, ${BASE}/cipher-core/src/main/scala/tsec/cipher/common/padding/PKCS7Padding.scala, ${BASE}/cipher-core/src/main/scala/tsec/cipher/common/padding/Padding.scala, ${BASE}/cipher-core/src/main/scala/tsec/cipher/common/padding/PKCS1Padding.scala, ${BASE}/cipher-core/src/main/scala/tsec/cipher/common/padding/WithPaddingTag.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m

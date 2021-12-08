@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="columbia-mbp" name="tsec.authentication.AuthorizationTests" tests="14" errors="0" failures="0" skipped="0" time="0.021" timestamp="2021-12-08T21:47:23">
+          <properties>
+      <property name="java.specification.version" value="17"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/><property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home/lib"/><property name="sun.java.command" value="/usr/local/Cellar/sbt/1.5.5/libexec/bin/sbt-launch.jar test"/><property name="jdk.debug" value="release"/><property name="sun.stderr.encoding" value="UTF-8"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2021-10-19"/><property name="java.home" value="/usr/local/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="Zero based"/><property name="line.separator" value="
+"/><property name="sun.stdout.encoding" value="UTF-8"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="17.0.1+1"/><property name="user.name" value="stan"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF8"/><property name="jnidispatch.path" value="/Users/stan/Library/Caches/JNA/temp/jna3951427236893547023.tmp"/><property name="java.vendor.version" value="Homebrew"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/var/folders/dd/v5q5vjn167l909f0dzs67t2c0000gn/T/"/><property name="java.version" value="17.0.1"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="native.encoding" value="UTF-8"/><property name="java.library.path" value="/Users/stan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="java.vendor" value="Homebrew"/><property name="scala.ext.dirs" value="/Users/stan/.sbt/1.0/java9-rt-ext-homebrew_17_0_1"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="java.class.path" value="/usr/local/Cellar/sbt/1.5.5/libexec/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Homebrew"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Europe/Moscow"/><property name="java.vm.specification.version" value="17"/><property name="os.name" value="Mac OS X"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="RU"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/Users/stan"/><property name="user.language" value="en"/><property name="swoval.tmpdir" value="/Users/stan/.sbt/1.0"/><property name="jline.esc.timeout" value="0"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="path.separator" value=":"/><property name="os.version" value="12.0.1"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib:/usr/lib"/><property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/><property name="user.dir" value="/Users/stan/Dev/_Spread/spread/tsec/tsec"/><property name="os.arch" value="x86_64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="17.0.1+1"/><property name="java.class.version" value="61.0"/>
+    </properties>
+          <testcase classname="tsec.authentication.AuthorizationTests" name="BasicRBAC should let a request pass through if in group" time="0.006">
+                      
+                    </testcase><testcase classname="tsec.authentication.AuthorizationTests" name="BasicRBAC should not let a request pass through if not contained" time="0.0">
+                      
+                    </testcase><testcase classname="tsec.authentication.AuthorizationTests" name="BasicDAC should let a request pass if owner but not in group" time="0.002">
+                      
+                    </testcase><testcase classname="tsec.authentication.AuthorizationTests" name="BasicDAC should let a request pass if in group but not owner" time="0.001">
+                      
+                    </testcase><testcase classname="tsec.authentication.AuthorizationTests" name="BasicDAC should not let the request pass if in neither" time="0.001">
+                      
+                    </testcase><testcase classname="tsec.authentication.AuthorizationTests" name="HierarchyAuth should let a user with lower than the required clearance pass" time="0.001">
+                      
+                    </testcase><testcase classname="tsec.authentication.AuthorizationTests" name="HierarchyAuth should let a user with equal clearance pass" time="0.0">
+                      
+                    </testcase><testcase classname="tsec.authentication.AuthorizationTests" name="HierarchyAuth should not a user with equal clearance pass" time="0.001">
+                      
+                    </testcase><testcase classname="tsec.authentication.AuthorizationTests" name="DynamicRBAC should let a request pass through if in group" time="0.001">
+                      
+                    </testcase><testcase classname="tsec.authentication.AuthorizationTests" name="DynamicRBAC should not let a request pass through if not contained" time="0.001">
+                      
+                    </testcase><testcase classname="tsec.authentication.AuthorizationTests" name="Bell La Padula should read same level" time="0.001">
+                      
+                    </testcase><testcase classname="tsec.authentication.AuthorizationTests" name="Bell La Padula should read lower level" time="0.002">
+                      
+                    </testcase><testcase classname="tsec.authentication.AuthorizationTests" name="Bell La Padula should not read up" time="0.001">
+                      
+                    </testcase><testcase classname="tsec.authentication.AuthorizationTests" name="Bell La Padula should only write same level" time="0.003">
+                      
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

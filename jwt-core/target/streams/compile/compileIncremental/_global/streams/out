@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 50 products, 11 sources, 8 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/jwt-core/src/main/scala/tsec/jws/header/JWSHeader.scala, ${BASE}/jwt-core/src/main/scala/tsec/jwt/package.scala, ${BASE}/jwt-core/src/main/scala/tsec/jwt/JWTClaims.scala, ${BASE}/jwt-core/src/main/scala/tsec/jwt/util/ParseEncodedKeySpec.scala, ${BASE}/jwt-core/src/main/scala/tsec/jwt/algorithms/JWA.scala, ${BASE}/jwt-core/src/main/scala/tsec/internal/CirceShim.java, ${BASE}/jwt-core/src/main/scala/tsec/jws/JWSJWT.scala, ${BASE}/jwt-core/src/main/scala/tsec/jws/package.scala, ${BASE}/jwt-core/src/main/scala/tsec/jwt/header/package.scala, ${BASE}/jwt-core/src/main/scala/tsec/jwt/header/JWTHeader.scala, ${BASE}/jwt-core/src/main/scala/tsec/jws/JWSSerializer.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m

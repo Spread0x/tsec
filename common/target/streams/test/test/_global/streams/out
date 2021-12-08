@@ -1,0 +1,23 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 2 initial tasks for 2 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.TSecOpsTest, sbt.ForkMain$SubclassFingerscan@17c68925, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTSecOpsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTSec ops[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should convert Float properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should convert Double properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should convert Long properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should convert Short properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should convert Int properly[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 5 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.SymmetricSpec, sbt.ForkMain$SubclassFingerscan@7e0ea639, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSymmetricSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 11 seconds, 378 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.TSecOpsTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.SymmetricSpec[0m

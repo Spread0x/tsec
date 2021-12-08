@@ -1,0 +1,54 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Migration Warning: /Users/stan/Dev/_Spread/spread/tsec/tsec-http4s/src/main/scala/tsec/authentication/SecuredRequestHandler.scala:25:59 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m25 |[0m    ME.handleErrorWith(middleware(service)) { [36me[0m: [35mThrowable[0m =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |                                                           [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |parentheses are required around the parameter of a lambda[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |This construct can be rewritten automatically under -rewrite -source 3.0-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Migration Warning: /Users/stan/Dev/_Spread/spread/tsec/tsec-http4s/src/main/scala/tsec/authentication/SecuredRequestHandler.scala:37:59 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m37 |[0m    ME.handleErrorWith(middleware(service)) { [36me[0m: [35mThrowable[0m =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |                                                           [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |parentheses are required around the parameter of a lambda[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |This construct can be rewritten automatically under -rewrite -source 3.0-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Migration Warning: /Users/stan/Dev/_Spread/spread/tsec/tsec-http4s/src/main/scala/tsec/authentication/SecuredRequestHandler.scala:48:59 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m48 |[0m    ME.handleErrorWith(middleware(service)) { [36me[0m: [35mThrowable[0m =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |                                                           [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |parentheses are required around the parameter of a lambda[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |This construct can be rewritten automatically under -rewrite -source 3.0-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E049] Reference Migration Warning: /Users/stan/Dev/_Spread/spread/tsec/tsec-http4s/src/main/scala/tsec/authentication/SignedCookieAuthenticator.scala:241:14 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m241 |[0m              tokenStore.update(updated).map(_ => updated)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |              [33m^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |Reference to tokenStore is ambiguous,[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |it is both defined in [33mmethod[0m [35mapply[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |and inherited subsequently in [33manonymous class[0m [35mtsec.authentication.SignedCookieAuthenticator[F, I, V, Alg][0m [0m
+[0m[[0m[33mwarn[0m] [0m[0m    |  {...}[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Migration Warning: /Users/stan/Dev/_Spread/spread/tsec/tsec-http4s/src/main/scala/tsec/authentication/package.scala:64:32 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m64 |[0m        Kleisli { [36mr[0m: [35mRequest[F][0m =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |                                [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |parentheses are required around the parameter of a lambda[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |This construct can be rewritten automatically under -rewrite -source 3.0-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Migration Warning: /Users/stan/Dev/_Spread/spread/tsec/tsec-http4s/src/main/scala/tsec/authentication/package.scala:79:32 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m79 |[0m        Kleisli { [36mr[0m: [35mRequest[F][0m =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |                                [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |parentheses are required around the parameter of a lambda[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |This construct can be rewritten automatically under -rewrite -source 3.0-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Migration Warning: /Users/stan/Dev/_Spread/spread/tsec/tsec-http4s/src/main/scala/tsec/authentication/package.scala:125:45 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m125 |[0m      Kleisli { [36mreq[0m: [35mSecuredRequest[F, I, A][0m =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |                                             [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |parentheses are required around the parameter of a lambda[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |This construct can be rewritten automatically under -rewrite -source 3.0-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Migration Warning: /Users/stan/Dev/_Spread/spread/tsec/tsec-http4s/src/main/scala/tsec/authentication/package.scala:143:45 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m143 |[0m      Kleisli { [36mreq[0m: [35mSecuredRequest[F, I, A][0m =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |                                             [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |parentheses are required around the parameter of a lambda[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |This construct can be rewritten automatically under -rewrite -source 3.0-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Migration Warning: /Users/stan/Dev/_Spread/spread/tsec/tsec-http4s/src/main/scala/tsec/authentication/package.scala:196:32 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m196 |[0m        Kleisli { [36mr[0m: [35mRequest[F][0m =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |                                [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |parentheses are required around the parameter of a lambda[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |This construct can be rewritten automatically under -rewrite -source 3.0-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Migration Warning: /Users/stan/Dev/_Spread/spread/tsec/tsec-http4s/src/main/scala/tsec/csrf/TSecCSRF.scala:125:30 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m125 |[0m      Kleisli { [36mr[0m: [35mRequest[F][0m =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |                              [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |parentheses are required around the parameter of a lambda[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |This construct can be rewritten automatically under -rewrite -source 3.0-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m10 warnings found[0m
+[0m[[0m[33mwarn[0m] [0m[0m10 warnings found[0m

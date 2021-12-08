@@ -1,0 +1,59 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.hashing.bouncy.HasherTest, sbt.ForkMain$SubclassFingerscan@3d24753a, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHasherTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA cryptographic hash function for SHA3-224[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for two equal byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for piped byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA cryptographic hash function for SHA3-256[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for two equal byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for piped byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA cryptographic hash function for SHA3-384[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for two equal byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for piped byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA cryptographic hash function for SHA3-512[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for two equal byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for piped byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA cryptographic hash function for Whirlpool[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for two equal byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for piped byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA cryptographic hash function for RipeMD128[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for two equal byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for piped byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA cryptographic hash function for RipeMD160[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for two equal byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for piped byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA cryptographic hash function for RipeMD256[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for two equal byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for piped byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA cryptographic hash function for RipeMD320[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for two equal byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for piped byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA cryptographic hash function for GOST3411-2012-256[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for two equal byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for piped byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA cryptographic hash function for GOST3411-2012-512[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for two equal byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for piped byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA cryptographic hash function for BLAKE2B-160[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for two equal byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for piped byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA cryptographic hash function for BLAKE2B-256[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for two equal byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for piped byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA cryptographic hash function for BLAKE2B-384[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for two equal byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for piped byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA cryptographic hash function for BLAKE2B-512[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for two equal byte arrays[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate an equal hash for piped byte arrays[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 30 events.[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 49 seconds, 243 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 30[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 30, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.hashing.bouncy.HasherTest[0m

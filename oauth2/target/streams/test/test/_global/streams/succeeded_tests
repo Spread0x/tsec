@@ -1,0 +1,14 @@
+#Successful Tests
+#Wed Dec 08 21:47:22 MSK 2021
+tsec.oauth2.provider.TokenEndPointSpec=1638989241733
+tsec.oauth2.provider.AccessTokenSpec=1638989241739
+tsec.oauth2.provider.RefreshTokenGrantHandlerSpec=1638989241696
+tsec.oauth2.provider.AuthorizationCodeGrantHandlerSpec=1638989242085
+tsec.oauth2.provider.ValidatedRequestSpec=1638989241482
+tsec.oauth2.provider.ImplicitSpec=1638989241687
+tsec.oauth2.provider.RequestParameterSpec=1638989241767
+tsec.oauth2.provider.ClientCredentialsGrantHandlerSpec=1638989241653
+tsec.oauth2.provider.AuthHeaderSpec=1638989242177
+tsec.oauth2.provider.ProtectedResourceSpec=1638989241678
+tsec.oauth2.provider.OAuthErrorsSpec=1638989241753
+tsec.oauth2.provider.PasswordSpec=1638989241646

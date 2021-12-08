@@ -1,0 +1,127 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 12 initial tasks for 12 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.oauth2.provider.ValidatedRequestSpec, sbt.ForkMain$SubclassFingerscan@17c68925, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mValidatedRequestSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fetch Basic64[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fetch Basic64 by case insensitive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fetch authorization header without colon[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fetch empty client_secret with colon[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not fetch not Authorization key in header[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not fetch invalid Base64[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fetch parameter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should omit client_secret[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not fetch missing parameter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not fetch invalid parameter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not fetch invalid Authorization header[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not fetch if Authorization header is invalid, but client_id and client_secret are valid and present in parms[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 12 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.oauth2.provider.PasswordSpec, sbt.ForkMain$SubclassFingerscan@7e0ea639, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPasswordSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPassword when client credential required[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should handle request[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPassword when client credential not required[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should handle request[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 2 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.oauth2.provider.ClientCredentialsGrantHandlerSpec, sbt.ForkMain$SubclassFingerscan@3d24753a, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mClientCredentialsGrantHandlerSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should handle request[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.oauth2.provider.ProtectedResourceSpec, sbt.ForkMain$SubclassFingerscan@59a6e353, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mProtectedResourceSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be handled request with token into header[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be handled request with token into body[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be lost expired[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid request without token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid request when not find an access token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid request when not find AuthInfo by token[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 6 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.oauth2.provider.ImplicitSpec, sbt.ForkMain$SubclassFingerscan@7a0ac6e3, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mImplicitSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should grant access with valid user authentication[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not grant access with invalid user authentication[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 2 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.oauth2.provider.RefreshTokenGrantHandlerSpec, sbt.ForkMain$SubclassFingerscan@71be98f5, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRefreshTokenGrantHandlerSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should handle request[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.oauth2.provider.TokenEndPointSpec, sbt.ForkMain$SubclassFingerscan@6fadae5d, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTokenEndPointSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be handled request[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be error if grant type doesn't exist[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should error if grant type is wrong[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid request without client credential[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not be invalid request without client credential when not required[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid grant if client information is wrong[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be Failure when DataHandler throws Exception[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be a 401 InvalidClient failure when the Authorization header is present and there is a problem extracting the client credentials[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be a 401 InvalidClient failure when the Authorization header is present but invalid - even when an invalid grant handler is provided[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 9 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.oauth2.provider.AccessTokenSpec, sbt.ForkMain$SubclassFingerscan@17f6480, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAccessTokenSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should say a token is active that is not yet expired[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should expire tokens that have a lifespan that has passed[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not expire tokens that have no lifespan[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 3 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.oauth2.provider.OAuthErrorsSpec, sbt.ForkMain$SubclassFingerscan@2d6e8792, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mOAuthErrorsSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mOAuth Error Handling RFC 6749 Section 5.2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce a 400 status code for invalid_request[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce a 401 status code for invalid_client[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce a 400 status code for invalid_grant[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce a 400 status code for unauthorized_client[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce a 400 status code for unsupported_grant_type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce a 400 status code for invalid_scope[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce a 400 status code for redirect_uri_mismatch[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mOAuth Error Handling for Bearer Tokens RFC 6750 Section 3.1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce a 400 status code for invalid_request[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce a 401 status code for invalid_token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce a 403 status code for insufficient_scope[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 10 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.oauth2.provider.RequestParameterSpec, sbt.ForkMain$SubclassFingerscan@2812cbfa, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRequestParameterSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match RequestParameter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should doesn't match RequestParameter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fetch only oauth token parameter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fetch only access token parameter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fetch with another parameter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fetch illegal parameter then throws exception[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 6 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.oauth2.provider.AuthorizationCodeGrantHandlerSpec, sbt.ForkMain$SubclassFingerscan@2acf57e3, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthorizationCodeGrantHandlerSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should handle request[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should handle request if redirectUrl is none[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return a Failure IO[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 3 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.oauth2.provider.AuthHeaderSpec, sbt.ForkMain$SubclassFingerscan@506e6d5e, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAuthHeaderSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match AuthHeader from OAuth[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match AuthHeader by case insensitive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match AuthHeader from Bearer[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should doesn't match AuthHeader from OAuth[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should doesn't match AuthHeader from Bearer[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fetch parameter from OAuth[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fetch parameter from Bearer[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fetch illegal parameter then throws exception[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fetch by case insensitive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fetch illegal parameter without =[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 10 events.[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 48 seconds, 781 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 65[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 12, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 65, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.oauth2.provider.ValidatedRequestSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.oauth2.provider.PasswordSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.oauth2.provider.ClientCredentialsGrantHandlerSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.oauth2.provider.ProtectedResourceSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.oauth2.provider.ImplicitSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.oauth2.provider.RefreshTokenGrantHandlerSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.oauth2.provider.TokenEndPointSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.oauth2.provider.AccessTokenSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.oauth2.provider.OAuthErrorsSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.oauth2.provider.RequestParameterSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.oauth2.provider.AuthorizationCodeGrantHandlerSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.oauth2.provider.AuthHeaderSpec[0m

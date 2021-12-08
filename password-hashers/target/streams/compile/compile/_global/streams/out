@@ -1,0 +1,11 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Deprecation Warning: /Users/stan/Dev/_Spread/spread/server/dl/src/main/scala/tsec/tsec/password-hashers/src/main/scala/tsec/passwordhashers/jca/SCryptUtil.scala:47:31 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m47 |[0m    [33mval[0m [36mN[0m        = Math.pow([31m2[0m, params >> [31m16[0m & [31m0xffff[0m).toInt[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |                               [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33mmethod[0m [35mlong2double[0m in [33mobject[0m [35mLong[0m is deprecated since 2.13.1: Implicit conversion from Long to Double is dangerous because it loses precision. Write `.toDouble` instead.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Deprecation Warning: /Users/stan/Dev/_Spread/spread/server/dl/src/main/scala/tsec/tsec/password-hashers/src/main/scala/tsec/passwordhashers/jca/SCryptUtil.scala:98:50 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m98 |[0m    [33mval[0m [36mparams[0m  = java.lang.Long.toString(log2(N) << [31m16L[0m | r << [31m8[0m | p, [31m16[0m)[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |                                          [33m^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33mmethod[0m [35m<<[0m in [33mclass[0m [35mInt[0m is deprecated since 2.12.7: shifting a value by a `Long` argument is deprecated (except when the value is a `Long`).[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |Call `toInt` on the argument to maintain the current behavior and avoid the deprecation warning.[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m

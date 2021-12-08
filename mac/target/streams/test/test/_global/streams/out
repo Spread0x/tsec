@@ -1,0 +1,34 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.MacTests, sbt.ForkMain$SubclassFingerscan@17c68925, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMacTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHmacSHA1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign then verify the same encrypted data properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sign to the same message[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for different messages[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for different keys[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHmacSHA256[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign then verify the same encrypted data properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sign to the same message[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for different messages[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for different keys[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHmacSHA384[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign then verify the same encrypted data properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sign to the same message[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for different messages[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for different keys[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHmacSHA512[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Sign then verify the same encrypted data properly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sign to the same message[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for different messages[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not verify for different keys[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 16 events.[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 52 seconds, 210 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 16[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 16, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.MacTests[0m

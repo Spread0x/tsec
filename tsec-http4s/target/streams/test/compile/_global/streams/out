@@ -1,0 +1,48 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E049] Reference Migration Warning: /Users/stan/Dev/_Spread/spread/tsec/tsec/tsec-http4s/src/test/scala/tsec/authentication/EncryptedCookieAuthenticatorSpec.scala:75:12 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m75 |[0m            dummyStore,[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |            [33m^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |            Reference to dummyStore is ambiguous,[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |            it is both defined in [33mmethod[0m [35mgenStatefulAuthenticator[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |            and inherited subsequently in [33manonymous class[0m [35m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |              tsec.authentication.AuthSpecTester[[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |                tsec.authentication.AuthEncryptedCookie[A, Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m   |              ][0m
+[0m[[0m[33mwarn[0m] [0m[0m   |            [0m {...}[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E049] Reference Migration Warning: /Users/stan/Dev/_Spread/spread/tsec/tsec/tsec-http4s/src/test/scala/tsec/authentication/EncryptedCookieAuthenticatorSpec.scala:135:54 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m135 |[0m          .stateless[IO, Int, DummyUser, A](settings, dummyStore, cipherAPI.unsafeGenerateKey)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |                                                      [33m^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |                Reference to dummyStore is ambiguous,[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |                it is both defined in [33mmethod[0m [35mgenStatelessAuthenticator[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |                and inherited subsequently in [33manonymous class[0m [35m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |                  tsec.authentication.AuthSpecTester[[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |                    tsec.authentication.AuthEncryptedCookie[A, Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m    |                  ][0m
+[0m[[0m[33mwarn[0m] [0m[0m    |                [0m {...}[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E049] Reference Migration Warning: /Users/stan/Dev/_Spread/spread/tsec/tsec/tsec-http4s/src/test/scala/tsec/authentication/JWTAuthenticatorSpec.scala:130:18 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m130 |[0m        tf(store, dummyStore, macKeyGen.generateKey).create([31m123[0m)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |                  [33m^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |Reference to dummyStore is ambiguous,[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |it is both defined in [33mmethod[0m [35mstateful[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |and inherited subsequently in [33manonymous class[0m [35m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |  tsec.authentication.AuthSpecTester[tsec.authentication.AugmentedJWT[A, Int]][0m
+[0m[[0m[33mwarn[0m] [0m[0m    |[0m {...}[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E049] Reference Migration Warning: /Users/stan/Dev/_Spread/spread/tsec/tsec/tsec-http4s/src/test/scala/tsec/authentication/JWTAuthenticatorSpec.scala:167:11 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m167 |[0m        tf(dummyStore, macKey).create([31m123[0m)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |           [33m^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |Reference to dummyStore is ambiguous,[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |it is both defined in [33mmethod[0m [35mpartialStateless[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |and inherited subsequently in [33manonymous class[0m [35m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |  tsec.authentication.AuthSpecTester[tsec.authentication.AugmentedJWT[A, Int]][0m
+[0m[[0m[33mwarn[0m] [0m[0m    |[0m {...}[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E049] Reference Migration Warning: /Users/stan/Dev/_Spread/spread/tsec/tsec/tsec-http4s/src/test/scala/tsec/authentication/SignedCookieAuthenticatorTests.scala:56:10 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m56 |[0m          dummyStore,[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |          [33m^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |          Reference to dummyStore is ambiguous,[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |          it is both defined in [33mmethod[0m [35mgenAuthenticator[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |          and inherited subsequently in [33manonymous class[0m [35m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |            tsec.authentication.AuthSpecTester[[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |              tsec.authentication.AuthenticatedCookie[A, Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m   |            ][0m
+[0m[[0m[33mwarn[0m] [0m[0m   |          [0m {...}[0m
+[0m[[0m[33mwarn[0m] [0m[0m5 warnings found[0m
+[0m[[0m[33mwarn[0m] [0m[0m5 warnings found[0m

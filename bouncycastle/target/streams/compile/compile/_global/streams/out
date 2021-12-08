@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0merror while loading $throws$package$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file scala/runtime/$throws$package.class is broken, reading aborted with class dotty.tools.tasty.UnpickleException[0m
+[0m[[0m[31merror[0m] [0m[0mTASTy signature has wrong version.[0m
+[0m[[0m[31merror[0m] [0m[0m expected: {majorVersion: 28, minorVersion: 0}[0m
+[0m[[0m[31merror[0m] [0m[0m found   : {majorVersion: 28, minorVersion: 1}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThis TASTy file was produced by a more recent, forwards incompatible release.[0m
+[0m[[0m[31merror[0m] [0m[0mTo read this TASTy file, please upgrade your tooling.[0m
+[0m[[0m[31merror[0m] [0m[0mThe TASTy file was produced by Scala 3.1.0-bin-nonbootstrapped.[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

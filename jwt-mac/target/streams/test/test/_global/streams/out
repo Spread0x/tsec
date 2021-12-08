@@ -1,0 +1,61 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.JWTMacTests, sbt.ForkMain$SubclassFingerscan@67b64c45, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWTMacTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWT pureHS256[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sign and verify properly with no expiry[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sign and verify properly for proper expiry[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sign and verify properly for proper nbf, iat, and expiry[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should parse unverified correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail verification for expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail verification if evaluated before nbf[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail verification if iat is some nonsensical time in the future[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWT impureHS256[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sign and verify properly with no expiry[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sign and verify properly for proper expiry[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sign and verify properly for proper nbf, iat, and expiry[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail verification for expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail verification if evaluated before nbf[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail verification if iat is some nonsensical time in the future[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWT pureHS512[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sign and verify properly with no expiry[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sign and verify properly for proper expiry[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sign and verify properly for proper nbf, iat, and expiry[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should parse unverified correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail verification for expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail verification if evaluated before nbf[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail verification if iat is some nonsensical time in the future[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWT impureHS512[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sign and verify properly with no expiry[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sign and verify properly for proper expiry[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sign and verify properly for proper nbf, iat, and expiry[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail verification for expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail verification if evaluated before nbf[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail verification if iat is some nonsensical time in the future[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWT pureHS384[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sign and verify properly with no expiry[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sign and verify properly for proper expiry[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sign and verify properly for proper nbf, iat, and expiry[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should parse unverified correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail verification for expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail verification if evaluated before nbf[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail verification if iat is some nonsensical time in the future[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWT impureHS384[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sign and verify properly with no expiry[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sign and verify properly for proper expiry[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should sign and verify properly for proper nbf, iat, and expiry[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail verification for expired token[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail verification if evaluated before nbf[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail verification if iat is some nonsensical time in the future[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJWTS[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not properly deserialize a JWT that is signed with a different algorithm and key[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 40 events.[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 49 seconds, 224 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 40[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 40, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.JWTMacTests[0m

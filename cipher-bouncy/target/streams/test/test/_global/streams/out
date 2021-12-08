@@ -1,0 +1,54 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(tsec.BouncyCipherTests, sbt.ForkMain$SubclassFingerscan@3d24753a, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBouncyCipherTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCipher test: XSalsa20Poly1305Bouncy[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for an incorrect key in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCipher test: XSalsa20Poly1305Bouncy Key Generator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not allow a key with incorrect length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAEAD Cipher: XChaCha20Poly1305Bouncy[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key and AEAD[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for correct key but incorrect AAD[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key and AEAD in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for an incorrect key in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for correct key but incorrect AAD in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAEAD Cipher: XChaCha20Poly1305Bouncy Key Generator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not allow a key with incorrect length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAEAD Cipher: ChaCha20Poly1305Bouncy[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key and AEAD[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for correct key but incorrect AAD[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key and AEAD in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for an incorrect key in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for correct key but incorrect AAD in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAEAD Cipher: ChaCha20Poly1305Bouncy Key Generator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not allow a key with incorrect length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAEAD Cipher: ChaCha20Poly1305IETFBouncy[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key and AEAD[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for an incorrect key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for correct key but incorrect AAD[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Encrypt and decrypt for the same key and AEAD in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for an incorrect key in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not decrypt properly for correct key but incorrect AAD in detached mode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAEAD Cipher: ChaCha20Poly1305IETFBouncy Key Generator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Not allow a key with incorrect length[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 32 events.[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 46 seconds, 359 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 32[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 32, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tsec.BouncyCipherTests[0m
